@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+header {
+  background-color: #f76c6c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+.about {
+  margin-top: 30px;
+}
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav a {
+    margin: 10px 0;
+  }
+}

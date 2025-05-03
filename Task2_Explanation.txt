@@ -1,0 +1,5 @@
+I created a responsive travel blog page using HTML, CSS, and JavaScript.
+- The layout adapts to both desktop and mobile screens using media queries.
+- Navigation links stack vertically on smaller devices.
+- A button is added to toggle extra text using JavaScript.
+- Colors and spacing are used to keep the design clean and user-friendly.
